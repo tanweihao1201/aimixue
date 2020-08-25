@@ -1,0 +1,1 @@
+for(var mon=document.querySelectorAll(".month"),a=document.querySelectorAll(".sec_body_2 ul li .right a"),i=0;i<a.length;i++)a[i].setAttribute("i",i),a[i].onmousemove=function(){mon[this.getAttribute("i")].style.color=window.getComputedStyle(this).color},a[i].onmouseout=function(){for(var o=0;o<mon.length;o++)mon[o].style.color="#000"};

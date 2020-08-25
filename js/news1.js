@@ -1,0 +1,1 @@
+var s=document.querySelector(".sec_header p span:nth-of-type(2)");s.onclick=function(){window.location.href="../pages/news.html"};
